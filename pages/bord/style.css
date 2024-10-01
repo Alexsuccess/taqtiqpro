@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url(./assets/BG.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.login-container {
+    background: rgba(29, 27, 27, 0.027);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 350px;
+    padding: 40px 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    margin-bottom: 20px;
+}
+
+.avatar img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-group label {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px white;
+    padding: 10px;
+    width: 100%;
+}
+
+.ico {
+    max-width: 10px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.input-group .icon {
+    margin-right: 10px;
+}
+
+.input-group input {
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.options a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.small {
+    font-size: x-small;
+    font-weight: lighter;
+}
+
+.login-button {
+    background-color: #1F1B21;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #1f1b21a4;
+}
+
+.register {
+    margin-top: 20px;
+}
+
+.register a {
+    color: #a1c4fd;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.alert.alert-danger {
+    color: red;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Connexion</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <div class="avatar">
+                <img src="./assets/Avatar.png" alt="Avatar">
+            </div>
+            <form method="post" action="">
+                <div class="input-group">
+                    <label for="email">
+                        <img src="./assets/envelope-solid.svg" class="ico" />
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </label>
+                </div>
+                <div class="input-group">
+                    <label for="password">
+                        <img src="./assets/lock-solid.svg" class="ico" />
+                        <input type="password" id="password" name="password" placeholder="Mot de passe" required>
+                    </label>
+                </div>
+                <div class="options">
+                    <label class="small">
+                        <input type="checkbox" style="margin-bottom: 9px;"> Remember me
+                    </label>
+                    <a href="#" class="small">Choix de connexion</a>
+                </div>
+                <button type="submit" class="login-button">LOGIN</button>
+                <div class="register">
+                    <a href="#" class="small">Créer un compte</a>
+                </div>
+                <?php if ($error_message != ""): ?>
+                <div class="alert alert-danger">
+                    <?php echo $error_message; ?>
+                </div>
+                <?php endif; ?>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,61 @@
+2024-09-22 06:58:43 - Requête reçue
+Array
+(
+)
+
+
+
+2024-09-22 06:58:43 - Accès non autorisé
+2024-09-22 07:01:13 - Requête reçue
+Array
+(
+)
+
+{"nom":"Christian ","email":"divodjoko@gmail.com","telephone":"123","type_emploi":"Temps plein","motivation":"ddff","cv_nom":""}
+
+2024-09-22 07:01:13 - Erreur de connexion à la base de données: SQLSTATE[HY000] [1044] Access denied for user '4w0vau_gsprint'@'%' to database '4w0vau_dreamize'
+2024-09-22 07:03:13 - Requête reçue
+Array
+(
+)
+
+
+
+2024-09-22 07:03:13 - Accès non autorisé
+2024-09-22 07:03:34 - Requête reçue
+Array
+(
+)
+
+{"nom":"Christian ","email":"divodjoko@gmail.com","telephone":"123","type_emploi":"Temps plein","motivation":"ddff","cv_nom":""}
+
+2024-09-22 07:03:34 - Connexion à la base de données réussie
+2024-09-22 07:03:34 - Données reçues: stdClass Object
+(
+    [nom] => Christian 
+    [email] => divodjoko@gmail.com
+    [telephone] => 123
+    [type_emploi] => Temps plein
+    [motivation] => ddff
+    [cv_nom] => 
+)
+
+2024-09-22 07:03:34 - Insertion réussie
+2024-09-22 07:32:09 - Requête reçue
+Array
+(
+)
+
+null
+
+2024-09-22 07:32:09 - Connexion à la base de données réussie
+2024-09-22 07:32:09 - Données reçues: 
+2024-09-22 07:32:09 - Données incomplètes
+2024-09-22 15:47:20 - Requête reçue
+Array
+(
+)
+
+
+
+2024-09-22 15:47:20 - Accès non autorisé
